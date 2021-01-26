@@ -1,0 +1,29 @@
+{
+  "name": "server-demo",
+  "version": "1.0.0",
+  "description": "node 静态服务demo",
+  "main": "app.js",
+  "scripts": {
+    "dev": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ruizer/node-server-demo.git"
+  },
+  "keywords": [
+    "node",
+    "web",
+    "server"
+  ],
+  "author": "ruizer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ruizer/node-server-demo/issues"
+  },
+  "homepage": "https://github.com/ruizer/node-server-demo#readme",
+  "devDependencies": {
+    "express": "^4.17.1",
+    "http-proxy-middleware": "^1.0.6"
+  }
+}
